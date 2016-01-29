@@ -1,0 +1,20 @@
+/* reset */
+#outlook a {padding:0;} /* Force Outlook to provide a "view in browser" menu link. */ 
+.ExternalClass {width:100%;} /* Force Hotmail to display emails at full width */  
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Forces Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */ 
+table td {border-collapse: collapse;} /* Outlook 07, 10 padding issue fix */
+table {border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; } /* remove spacing around Outlook 07, 10 tables */
+
+/* bring inline */
+img {display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;}
+
+a[href^="x-apple-data-detectors:"] {
+    color: inherit !important;
+    text-decoration: inherit !important;
+}
+
+a img {border: none;} 
+p{
+  margin:0;
+  padding:0;
+}
